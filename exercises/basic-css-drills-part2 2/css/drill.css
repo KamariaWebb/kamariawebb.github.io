@@ -37,13 +37,14 @@ text-decoration: underline;
 }
 
 /* Drill 11 - Write your code solution below */
-
+#d11-p1 {
+    font-size: 36px;
+}
    
-
 /* Drill 12 - Write your code solution below */
 #d12-div2 {
     text-align: right;
-    background-color: aquamarine;
+    
 }
 
 #d12-div4 {
@@ -61,7 +62,11 @@ text-decoration: underline;
     }
 
 #d13-div3 {
-    font-size: 24px;
+    font-size: 48px;
+}
+
+    #d13-div4 {
+    sfont-size: 24px;
     font-style: italic;
 }
     
