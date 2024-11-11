@@ -1,36 +1,26 @@
 /* Drill 1 - Write your code solution below */
-<div class = "red">
-    </div>
+div.orange p {
+    color: limegreen;
+}
 
-<div class = "orange">
-     <p>
-</div>
 
 /* Drill 2 - Write your code solution below */
-<div class= "purple">
-     </div>
-
-div purple  p {
-<div class= "blue">
-    </div>
+div.purple p{
+    color:orangered
 }
-
-div.purple p {
-    color: orange;
-}
-
-
 
 /* Drill 3 - Write your code solution below */
-<div class ="dashed">
-
-</p>
-
+div.dashed p span {
+    color: magenta
+}
 
 /* Drill 4 - Write your code solution below */
-
+div.shadowed p {
+    background-color: skyblue;
+}
 
 
 /* Drill 5 - Write your code solution below */
-
-
+div.dog-days img{
+    border-radius: 50%
+}
