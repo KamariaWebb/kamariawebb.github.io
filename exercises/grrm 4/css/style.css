@@ -1,0 +1,107 @@
+/**************************************************************
+    Media Queries Styling
+**************************************************************/
+
+/* Tablet Breakpoint: Screen width between 1000px and 801px */
+@media screen and (max-width: 1000px) and (min-width: 801px) {
+    #grid-layout {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+            "header  header  header"
+            "navbar  navbar  navbar"
+            "banner  banner  banner"
+            "card-1  card-2  card-3"
+            "aside   blog    blog"
+            "footer  footer  footer"
+            "bottom  bottom  bottom";
+    }
+
+    #banner-container {
+        height: 300px; /* Reduced height for the hero container */
+        padding: 16px; /* Adjusted padding for better spacing */
+    }
+
+    #banner-container img {
+        width: 100%; /* Ensure full responsiveness */
+        height: 100%; /* Maintain aspect ratio */
+        object-fit: cover; /* Crop image neatly if needed */
+    }
+
+    #header h1 {
+        font-size: 48px;
+    }
+
+    #nav {
+        flex-wrap: wrap;
+    }
+
+    #nav a {
+        flex: 1 1 100px;
+    }
+}
+
+/* Mobile Breakpoint: Screen width 800px and under */
+@media screen and (max-width: 800px) {
+    #grid-layout {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "header"
+            "navbar"
+            "banner"
+            "card-1"
+            "card-2"
+            "card-3"
+            "aside"
+            "blog"
+            "footer"
+            "bottom";
+    }
+
+    #banner-container {
+        height: 200px; /* Further reduced height for smaller screens */
+        padding: 8px; /* Reduced padding */
+    }
+
+    #banner-container img {
+        width: 100%; /* Ensure full responsiveness */
+        height: 100%; /* Maintain aspect ratio */
+        object-fit: cover; /* Neat cropping for mobile */
+    }
+
+    #header h1 {
+        font-size: 36px;
+    }
+
+    #shield-image,
+    #search-bar,
+    #search-button {
+        display: none;
+    }
+
+    #header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #nav {
+        flex-wrap: wrap;
+    }
+
+    #nav a {
+        flex: 1 1 80px;
+    }
+
+    /* Remove unnecessary spacing and background styles */
+    #grid-layout,
+    #card-1,
+    #card-2,
+    #card-3,
+    #aside,
+    #main,
+    #footer,
+    #bottom {
+        margin: 0;
+        padding: 0;
+        background: none;
+    }
+}
