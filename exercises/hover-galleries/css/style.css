@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thanksgiving Galleries</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Thanksgiving Card Galleries</h1>
+
+  <!-- Gallery 1: Show/Hide Content -->
+  <section class="gallery gallery-1">
+    <h2>Harvest Glow</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="images/churros-1.webp" alt="Card 1">
+        <div class="card-content">Happy Thanksgiving!</div>
+      </div>
+      <div class="card">
+        <img src="images/image2.webp" alt="Card 2">
+        <div class="card-content">Family & Gratitude</div>
+      </div>
+      <div class="card">
+        <img src="images/image3.webp" alt="Card 3">
+        <div class="card-content">Pumpkin Spice Vibes</div>
+      </div>
+      <div class="card">
+        <img src="images/image4.webp" alt="Card 4">
+        <div class="card-content">Autumn Bliss</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery 2: Image Zoom -->
+  <section class="gallery gallery-2">
+    <h2>Rustic Feast</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="images/churros-1.webp" alt="Card 1">
+      </div>
+      <div class="card">
+        <img src="images/image2.webp" alt="Card 2">
+      </div>
+      <div class="card">
+        <img src="images/image3.webp" alt="Card 3">
+      </div>
+      <div class="card">
+        <img src="images/image4.webp" alt="Card 4">
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery 3: Tilt Effect -->
+  <section class="gallery gallery-3">
+    <h2>Golden Leaves</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="images/churros-1.webp" alt="Card 1">
+      </div>
+      <div class="card">
+        <img src="images/image2.webp" alt="Card 2">
+      </div>
+      <div class="card">
+        <img src="images/image3.webp" alt="Card 3">
+      </div>
+      <div class="card">
+        <img src="images/image4.webp" alt="Card 4">
+      </div>
+    </div>
+  </section>
+</body>
+</html>
