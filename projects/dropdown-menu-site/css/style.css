@@ -1,0 +1,137 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: white;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #D2B48C;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu li {
+  position: relative;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu a:hover {
+  color: #8B4513;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  list-style: none;
+  background-color: #D2B48C;
+  padding: 10px;
+}
+
+.menu li:hover .submenu {
+  display: block;
+}
+
+/* Hero Section */
+.hero {
+  background: url('../images/background.webp') no-repeat center center/cover;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #8B4513;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+}
+
+/* Main Content */
+main {
+  margin: 20px auto;
+  width: 80%;
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .hero-text h1 {
+      font-size: 2rem;
+  }
+
+  .menu {
+      flex-direction: column;
+  }
+
+  .submenu {
+      position: relative;
+      top: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  main {
+      width: 90%;
+  }
+
+  .hero-text h1 {
+      font-size: 1.5rem;
+  }
+}
+adopt-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #8B4513; /* Brown color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.adopt-button:hover {
+  background-color: #A0522D; /* Slightly lighter brown on hover */
+}
