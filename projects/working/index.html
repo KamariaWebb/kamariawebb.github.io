@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AdoptMePlz</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id="navbar">
+            <a id="logo" href="index.html">AdoptMePlz</a>
+            <div class="dropdown-container">
+                <a href="#">Adopt <i class="fa-solid fa-chevron-down"></i></a>
+                <div class="dropdown-menu">
+                    <a href="dog.html">Buddy</a>
+                    <a href="cat.html">Tatiana</a>
+                    <a href="rabbit.html">Sammie</a>
+                </div>
+            </div>
+            <a href="donate.html">Donate</a>
+        </div>
+
+        <!-- Hero Section -->
+        <div class="hero">
+            <div class="hero-content">
+                <h1>Find Your New Best Friend!</h1>
+                <p>Your loving companion awaits at AdoptMePlz</p>
+            </div>
+        </div>
+
+        <script>
+            // Dropdown menu functionality
+            document.querySelectorAll('.dropdown-container').forEach(container => {
+            container.addEventListener('mouseenter', () => {
+            container.querySelector('.dropdown-menu').style.display = 'block';
+            });
+
+            container.addEventListener('mouseleave', () => {
+            container.querySelector('.dropdown-menu').style.display = 'none';
+            });
+            });
+        </script>
+    </body>
+</html>
