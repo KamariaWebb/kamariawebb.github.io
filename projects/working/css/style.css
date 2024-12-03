@@ -1,0 +1,231 @@
+/* Basic reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar styles */
+#navbar {
+    display: flex;
+    align-items: center;
+    background-color: #4CAF50;
+    padding: 10px;
+    position: relative;
+}
+
+#logo {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin-right: auto;
+}
+
+.dropdown-container {
+    position: relative;
+    margin-right: 20px;
+}
+
+.dropdown-container a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #4CAF50;
+    min-width: 120px;
+    z-index: 1;
+}
+
+.dropdown-menu a {
+    display: block;
+    color: white;
+    padding: 10px;
+}
+
+/* Hero styles */
+.hero {
+    background-image: url('path/to/your/hero-image.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+/* Animal information styles */
+.animal-info, .donate-info {
+    text-align: center;
+    margin: 20px;
+}
+
+.adopt-button, .donate-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    #navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .hero {
+        font-size: 1.5em;
+        height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    #navbar {
+        padding: 5px;
+    }
+    
+    #logo {
+        font-size: 20px;
+    }
+    
+    .hero {
+        font-size: 1.2em;
+        height: 200px;
+    }
+}
+/* Basic reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar styles */
+#navbar {
+    display: flex;
+    align-items: center;
+    background-color: #4CAF50;
+    padding: 10px;
+    position: relative;
+}
+
+#logo {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin-right: auto;
+}
+
+.dropdown-container {
+    position: relative;
+    margin-right: 20px;
+}
+
+.dropdown-container a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #4CAF50;
+    min-width: 120px;
+    z-index: 1;
+}
+
+.dropdown-menu a {
+    display: block;
+    color: white;
+    padding: 10px;
+}
+
+/* Hero styles */
+.hero {
+    background-image: url('images/hero-image.jpg'); /* Replace with your hero image path */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better text visibility */
+    padding: 20px;
+    border-radius: 10px; /* Optional: rounded corners for the content */
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    #navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .hero {
+        height: 300px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    #navbar {
+        padding: 5px;
+    }
+    
+    #logo {
+        font-size: 20px;
+    }
+    
+    .hero {
+        height: 200px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+}
