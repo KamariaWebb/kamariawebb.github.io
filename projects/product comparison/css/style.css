@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #004aad;
+    color: white;
+}
+
+h1, h2 {
+    margin: 10px 0;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+/* Featured Product */
+.featured-product {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.featured-product .featured-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Three Cards Layout */
+.three-cards {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin-top: 10px;
+}
+
+/* Media & Text Layout */
+.media-text {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.media img {
+    max-width: 50%;
+    border-radius: 10px;
+}
+
+.text {
+    max-width: 50%;
+}
+
+/* Comparison Table */
+.comparison-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.comparison-table th, .comparison-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.comparison-table th {
+    background-color: #004aad;
+    color: white;
+}
+
+.comparison-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    margin-top: 30px;
+}
