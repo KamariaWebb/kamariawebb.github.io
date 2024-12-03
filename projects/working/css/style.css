@@ -163,7 +163,7 @@ body {
 
 /* Hero styles */
 .hero {
-    background-image: url('images/hero-image.jpg'); /* Replace with your hero image path */
+    background-image: url("images/hero.webp");
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -173,11 +173,10 @@ body {
     color: white;
     text-align: center;
 }
-
 .hero-content {
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better text visibility */
+    background-color: rgba(0, 0, 0, 0.5); 
     padding: 20px;
-    border-radius: 10px; /* Optional: rounded corners for the content */
+    border-radius: 10px; 
 }
 
 h1 {
