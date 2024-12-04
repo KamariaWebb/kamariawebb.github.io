@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url('../images/background.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#navbar {
+    background-color: #D2B48C;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+#navbar a:hover {
+    color: #8B4513;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 10;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+#hero {
+    background-image: url('../images/hero.webp');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.center-column {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+button {
+    background-color: #D2B48C;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #8B4513;
+    color: white;
+}
+
+@media (max-width: 480px) {
+    #navbar {
+        flex-direction: column;
+    }
+    #navbar a {
+        margin: 5px 0;
+    }
+}
