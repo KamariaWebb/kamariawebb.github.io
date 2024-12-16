@@ -4,40 +4,61 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>John and Jane Smith's Super Bowl LVIII Extravaganza Party</title>
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=
+            Archivo+Black&family=Archivo:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100;1,100&family=Rock+Salt&display=swap" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
         <div class="center-column">
-            <h1>John and Jane Smith’s</h1>
-            <h2>SUPER BOWL LVIII</h2>
-            <h3>Extravaganza Party</h3>
+            <h1 class="montserrat-thin">John and Jane Smith’s</h1>
+            <h2 class="archivo-title">SUPER BOWL LVIII</h2>
+            <h3 class="rock-salt-regular">Extravaganza Party</h3>
 
             <div class="team-images">
                 <div class="team">
                     <img src="images/kansas.jpg" alt="Kansas City Chiefs">
-                    <p>Kansas City</p>
-                    <p>Chiefs</p>
+                    <p class="montserrat-thin">Kansas City Chiefs</p>
                 </div>
                 <div class="vs-background">
-                    <p class="vs">VS</p>
+                    <p class="vs rock-salt-regular">VS</p>
                 </div>
                 <div class="team">
-                    <img src="images/sanfrancisco.jpg" alt="San Francisco 49ers">
-                    <p>San Francisco</p>
-                    <p>49ers</p>
+                    <img src="images/sanfrancisco.jpg" alt="49ers">
+                    <p class="montserrat-thin">San Francisco 49ers</p>
                 </div>
             </div>
 
-            <p class="date-time">Sunday, Feb 11 2024 @ 6pm</p>
-            <p class="party-info">
+            <p class="date-time rock-salt-regular">
+                Sunday, Feb 11 2024 @ 6 PM
+            </p>
+            <p class="party-info archivo-text">
                 Join us for the Ultimate Super Bowl Sunday Bash!<br>
-                <span class="small-text">We'll have hot food, cold drinks, and big screens; all that's missing is you!</span>
+                <span class="small-text montserrat-thin">
+                    We'll have hot food, cold drinks, and big screens;
+                    all that's missing is you!
+                </span>
+            </p>
+            <p class="address archivo-text">
+                The party will be at 1234 Main St, Anytown, USA
             </p>
 
             <div class="cta-buttons">
-                <button class="rsvp-btn yes">I can make it</button>
-                <button class="rsvp-btn no">I can’t make it!</button>
+                <button type="button" class="rsvp-btn yes" 
+                    onclick="alert('I can make it!')">
+                    I can make it!
+                </button>
+
+                <button type="button" class="rsvp-btn no" 
+                    onclick="alert('I can’t make it!')">
+                    I can’t make it!
+                </button>
             </div>
+            <p class="contact-info archivo-text">
+                Questions? Call 555.123.4567
+            </p>
         </div>
     </body>
 </html>
