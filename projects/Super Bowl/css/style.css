@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Praise&display=swap');
+
+.montserrat-thin {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.5em;
+}
+
+.archivo-title {
+    font-family: "Archivo", serif;
+    font-weight: 900;
+    font-size: 2.5em;
+    color: goldenrod;
+}
+
+.rock-salt-regular {
+    font-family: "Rock Salt", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+}
+
 body {
     background-image: url('../images/background.jpg');
     background-size: cover;
@@ -11,25 +35,8 @@ body {
     max-width: 800px;
     margin: auto;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.7);
     text-align: center;
-}
-
-h1 {
-    font-size: 2.5em;
-    font-weight: normal;
-    color: white; 
-}
-
-h2 {
-    font-size: 3em; 
-    font-weight: bold;
-    color: goldenrod;
-}
-
-h3 {
-    font-size: 1.8em;
-    color: rgb(137, 60, 205);
 }
 
 .team-images {
@@ -46,8 +53,8 @@ h3 {
 }
 
 img {
-    width: 200px;
-    border: 5px solid white; /* White frame */
+    width: 150px;
+    border: 5px solid white;
 }
 
 .vs-background {
@@ -55,19 +62,25 @@ img {
 }
 
 .vs {
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: bold;
 }
 
 .date-time {
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin: 20px 0;
     font-weight: bold;
+    color: goldenrod;
 }
 
 .party-info {
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin: 20px 0;
+}
+
+.address {
+    font-size: 1em;
+    margin: 10px 0;
 }
 
 .small-text {
@@ -81,8 +94,8 @@ img {
 }
 
 .rsvp-btn {
-    font-size: 1.5rem;
-    padding: 15px 30px;
+    font-size: 1.2rem;
+    padding: 10px 20px;
     margin: 10px;
     cursor: pointer;
     border: none;
@@ -118,20 +131,32 @@ img {
 
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
-    h1, h2, h3 {
-        font-size: 1.5rem;
+    .montserrat-thin {
+        font-size: 1.2em; 
+    }
+
+    .archivo-title {
+        font-size: 2em; 
+    }
+
+    .rock-salt-regular {
+        font-size: 1.2em; 
     }
 
     .team img {
-        width: 250px;
+        width: 200px; 
     }
 
     .date-time {
-        font-size: 1.5rem;
+        font-size: 1.1rem; 
     }
 
-    .party-info {
-        font-size: 1.5rem;
+    .party-info, .address {
+        font-size: 1rem; 
+    }
+
+    .rsvp-btn {
+        font-size: 1rem;
     }
 }
 
@@ -149,7 +174,7 @@ img {
     }
 
     .team img {
-        width: 200px;
+        width: 150px;
     }
 
     .cta-buttons {
@@ -158,7 +183,11 @@ img {
     }
 
     .rsvp-btn {
-        font-size: 1.2rem;
-        padding: 10px 20px;
+        font-size: 1rem;
+        padding: 10px 15px;
+    }
+
+    .address, .contact-info {
+        font-size: 0.9rem;
     }
 }
